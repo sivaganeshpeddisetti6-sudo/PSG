@@ -1,5 +1,5 @@
 import * as THREE from 'three';
-import { RoomEnvironment } from './vendor/RoomEnvironment.js';
+import { RoomEnvironment } from './RoomEnvironment.js';
 const modes=[
  {title:'A better way<br>through broken links.',description:'An AI-based application that finds alternative destinations for broken links.',metric:'3,000+',unit:'broken links removed'},
  {title:'The right access.<br>At the right time.',description:'Identity and access management across 26 departments, plus automated WordPress access removal.',metric:'26',unit:'departments · IAM managed'},
