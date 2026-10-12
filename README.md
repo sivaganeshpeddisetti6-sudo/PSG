@@ -1,4 +1,4 @@
-# Siva Ganesh Peddisetti — Vercel portfolio
+# Siva Ganesh Peddisetti Vercel portfolio
 
 A white, black, and vivid-orange portfolio with an interactive Three.js systems scene. Select a project to rearrange the modules, drag or use arrow keys to rotate, and use the slider to separate them. Reset view restores the camera controls. Research remains static. Reduced-motion preferences make scene transitions immediate.
 
