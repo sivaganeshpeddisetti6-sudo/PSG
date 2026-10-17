@@ -137,3 +137,14 @@ footer,#contact{background:#080808!important;color:#f4f3ef!important;border-colo
 .impact-strip{width:min(100%,1600px);margin:0 auto;padding:1.15rem 3.5vw 1.35rem;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));border-top:1px solid #292929;border-bottom:1px solid #292929}
 .impact-strip>div{display:flex;flex-direction:column;gap:.2rem;padding:.25rem 1.25rem;border-left:1px solid #292929}.impact-strip>div:first-child{border-left:0;padding-left:0}.impact-strip strong{color:#ff5a1f;font:600 clamp(1.5rem,3vw,2.6rem)/1 'Space Grotesk',Arial,sans-serif;letter-spacing:-.07em}.impact-strip span{color:#b8b8b3;font-size:.72rem;line-height:1.4}
 @media(max-width:760px){.impact-strip{grid-template-columns:1fr;padding:0 0 1rem}.impact-strip>div,.impact-strip>div:first-child{padding:.75rem 0;border-left:0;border-bottom:1px solid #292929}.impact-strip>div:last-child{border-bottom:0}.impact-strip strong{font-size:1.6rem}.work{transform:none!important}.work:hover{transform:translateY(-4px)!important}}
+
+
+/* Match every part of the 3D stage and project artwork to the orange palette. */
+.stage-wrap{background:radial-gradient(ellipse at 52% 42%,#342019 0%,#191210 38%,#0b0b0b 78%)!important}
+.stage-wrap:before{color:#c8c3bc!important}
+.scene-tabs button[aria-pressed=true]{background:#ff5a1f!important;color:#111!important}
+.spread-control input{accent-color:#ff5a1f!important}
+.scene-fallback b{background:#ff5a1f!important;color:#111!important}
+.project-card:nth-child(2):before{background:radial-gradient(circle at 50% 48%,#ff5a1f 0 11%,transparent 11.5%),radial-gradient(circle at 50% 48%,#ff5a1f24 0 22%,transparent 22.5%),linear-gradient(135deg,#242321,#0c0c0c 65%)!important}
+.project-card:nth-child(3):before{background:repeating-linear-gradient(0deg,transparent 0 31px,#ffffff18 32px),linear-gradient(120deg,#211b17 0 48%,#35312d 48% 100%)!important}
+.project-card:nth-child(4):before{background-image:radial-gradient(circle at 25% 30%,#ff5a1f 0 3px,transparent 4px),radial-gradient(circle at 55% 55%,#ff5a1f 0 3px,transparent 4px),radial-gradient(circle at 78% 26%,#ff5a1f 0 3px,transparent 4px),linear-gradient(135deg,#282828,#111)!important}
